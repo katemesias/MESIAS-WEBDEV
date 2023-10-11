@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: azure;
+  background-color: lightgray;
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: white (85, 85, 85);
 }
 
 /* Transition */
@@ -32,7 +32,7 @@ a,
 nav,
 .nav-links {
   display: flex;
-  background: darkslategrey
+  background: black
 }
 
 nav {
@@ -44,7 +44,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 a {
@@ -168,16 +168,16 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 11rem;
   height: 80vh;
 }
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 320px;
+  height: 390px;
+  width: 350;
   margin: auto 0;
-  border: 1rem solid darkslategray;
+  border: 0.3rem solid black;
 }
 
 .section__text {
@@ -192,15 +192,16 @@ section {
 .section__text__p1 {
   text-align: center;
   font-size: medium;
+  font-size: 2.50rem;
 }
 
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 1.30rem;
   margin-bottom: 1rem;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
 }
 
